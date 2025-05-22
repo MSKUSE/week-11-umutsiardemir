@@ -20,5 +20,14 @@ public class Main {
         System.out.println(grades);
         System.out.println(grades.keySet();*/
 
-        Stack stack = new StackArray();
-        stack.pop();
+        Stack stack = new StackLinkedList();
+        try{
+            stack.pop();
+
+        }catch(Exception e){
+            System.out.println(e);
+        }
+
+
+    }
+}
